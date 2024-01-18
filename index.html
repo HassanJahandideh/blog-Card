@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  
+  <!-- font for learning -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+
+  <!-- font for date -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+  <!-- font for first h1 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+  <!-- font for descraption -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
+
+  <!-- font for lastP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap" rel="stylesheet">
+
+  <title>Blog Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: hsl(47, 88%, 63%);
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    #footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .mainCard {
+      border: 1px solid black;
+      box-shadow: 7px 7px;
+      transition: 0.5s;
+      width: 300px;
+      height: 420px;
+      border-radius: 15px;
+      background-color: white;
+      padding: 20px;
+      position: absolute;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+
+
+    .mainCard:hover {
+      box-shadow: 15px 15px;
+    }
+
+    img {
+      border-radius: 15px;
+    }
+
+
+
+    .firstP {
+      /* border: solid black; */
+      padding: 3px;
+      background-color: hsl(47, 88%, 63%);
+      width: 67px;
+      border-radius: 3px;
+      text-align: center;
+      font-family: 'Cabin', sans-serif;
+      font-size: 13px;
+    }
+
+    .secondP {
+      font-family: 'Abel', sans-serif;
+      font-size: 14.5px;
+    }
+
+    .firstH1 {
+      font-size: 23px;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .firstH1:hover {
+      color: hsl(47, 88%, 63%);
+      transition: 0.3s;
+    }
+
+    .thirdP {
+      font-family: 'Lexend', sans-serif;
+    }
+
+    .avatar {
+      float: left;
+    }
+   
+    .lastP {
+      font-family: 'Asap Condensed', sans-serif;
+      display: inline-block;
+      padding-left: 10px;
+      font-size: 14px;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="mainCard">
+
+    <div class="img">
+      <img src="assets/images/360_F_575627492_bqf75JJfdCeL7us5QpnjyJrRzgBK0san.jpg" width="290px"
+        alt="HTML and CSS Image">
+    </div>
+
+    <p class="firstP"><b>Learning</b></p>
+
+    <p class="secondP">Published 18 Jan 2024</p>
+
+    <h1 class="firstH1">HTML & CSS foundations</h1>
+
+    <p class="thirdP"><b>These languages are the backbone of every website, defining structure, content, and presentation.</b>
+    </p>
+
+    <img class="avatar" src="assets/images/image-avatar.webp" width="35px" height="35px" alt="avatar">
+    <p class="lastP">Hassan jahandideh</p>
+    
+
+  </div>
+
+  <div class="attribution">
+    <footer id="footer">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/HassanJahandideh" target="_blank">Hassan Jahandideh</a>.
+    </footer>
+  </div>
+</body>
+
+</html>
